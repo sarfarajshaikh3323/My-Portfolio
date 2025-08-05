@@ -3787,7 +3787,7 @@ body.absolute_header .breadcrumb_area {
 
 .btn-link {
 	padding: 8px 16px;
-	background-color: #00bcd4;
+	background-color: var(--tj-theme-secondary);
 	color: white;
 	border-radius: 4px;
 	text-decoration: none;
@@ -3796,5 +3796,6 @@ body.absolute_header .breadcrumb_area {
 }
 
 .btn-link:hover {
-	background-color: #0097a7;
+	background-color: var(--tj-theme-primary);
+	color: white;
 }
